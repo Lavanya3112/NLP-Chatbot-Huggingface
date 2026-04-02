@@ -1,65 +1,118 @@
-````markdown
-# NLP Chatbot using Hugging Face Transformers 🤖
+# 🤖 NLP Chatbot using Hugging Face Transformers
 
-This project demonstrates a conversational AI chatbot built using Hugging Face Transformers as part of an NLP internship assignment.
+<p align="center">
+  <b>Conversational AI Chatbot powered by DialoGPT</b><br>
+  Built using Transformers + PyTorch 🚀
+</p>
+
+---
 
 ## 🚀 Overview
-The chatbot uses the pre-trained **DialoGPT-medium** model to generate human-like responses and maintain conversation context.
 
-## 🛠️ Features
-- Interactive chatbot interface
-- Context-aware conversation using history
-- Response generation using transformer models
-- Controlled output using prompt engineering
-- Clean and structured implementation
+This project implements a **context-aware conversational chatbot** using the **DialoGPT-medium** model from Hugging Face Transformers.
 
-## 🧠 Technologies Used
-- Python
-- Hugging Face Transformers
-- PyTorch
-- Jupyter Notebook
+It simulates human-like conversations by maintaining chat history and generating intelligent responses dynamically.
 
-## 📌 How it Works
-- User input is tokenized using a tokenizer
-- Conversation history is maintained for context
-- Model generates responses using `generate()` function
-- Output is decoded and displayed to the user
+---
+
+## ✨ Features
+
+✔️ Interactive chatbot interface
+✔️ Context-aware multi-turn conversations
+✔️ Transformer-based response generation
+✔️ Prompt engineering for improved answers
+✔️ Clean and structured notebook implementation
+
+---
+
+## 🧠 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python">
+  <img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow">
+  <img src="https://img.shields.io/badge/PyTorch-DeepLearning-red?logo=pytorch">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter">
+</p>
+
+---
+
+## 🔄 Workflow
+
+```text
+User Input → Tokenization → Model Processing → Response Generation → Output → Loop
+```
+
+---
 
 ## ▶️ How to Run
-1. Install required libraries:
-   ```bash
-   pip install transformers torch
-````
 
-2. Open the notebook in Jupyter or VS Code
-3. Run all cells
-4. Start chatting with the bot
+### 1️⃣ Install dependencies
+
+```bash
+pip install transformers torch
+```
+
+### 2️⃣ Run the project
+
+* Open `Chatbot.ipynb` in Jupyter / VS Code
+* Run all cells
+* Execute the chatbot function
+* Start chatting 😄
+
+---
 
 ## 💬 Sample Interaction
 
-```
-Chatbot: Hello! I am your AI assistant. How can I help you today?
+```text
+====================================================
+🤖 Chatbot Demo
+====================================================
 
+Chatbot: Hello! I am your AI assistant.
 You: What is Artificial Intelligence?
-Chatbot: Artificial Intelligence (AI) is a branch of computer science that enables machines to perform tasks that typically require human intelligence.
+Chatbot: Artificial Intelligence (AI) is a branch of computer science that enables machines to perform tasks requiring human intelligence.
 
 You: Who created Python?
 Chatbot: Python was created by Guido van Rossum and first released in 1991.
 ```
 
-## 📖 Learning Outcomes
+---
 
-* Understanding transformer-based NLP models
-* Building a chatbot using pre-trained models
-* Managing conversational context
-* Improving responses using prompt engineering
+## ⚠️ Note
 
-## 🙌 Acknowledgment
+This chatbot is **interactive** and uses `input()` for real-time conversation.
+GitHub previews are static, so live interaction cannot be demonstrated here.
 
-This project was completed as part of the NLP internship at **Innomatics Research Labs**.
+To experience the chatbot, run the notebook locally.
 
 ---
 
-⭐ If you like this project, feel free to explore and improve it!
+## 📖 Learning Outcomes
 
-```
+* Understanding transformer-based NLP models
+* Building chatbots using pre-trained models
+* Managing conversational context
+* Improving responses using prompt engineering
+
+---
+
+## 🙌 Acknowledgment
+
+This project was completed as part of the
+**Innomatics Research Labs Internship Program**
+
+---
+
+## 🌟 Show your support
+
+If you found this project useful:
+
+⭐ Star the repository
+🔁 Share with others
+🚀 Try improving it further
+
+---
+
+<p align="center">
+  Made with ❤️ by Lavanya
+</p>
